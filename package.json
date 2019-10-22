@@ -1,0 +1,17 @@
+{
+	"name": "tsukasoy-anime-downloader",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"dependencies": {
+		"mongodb": "^3.3.3",
+		"node-fetch": "^2.6.0"
+	},
+	"type": "module",
+	"devDependencies": {},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "",
+	"license": "ISC"
+}
