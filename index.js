@@ -81,7 +81,7 @@ async function t() {
 	const has = require('./t');
 	console.log(`Fetching from ${range[0]} to ${range[1]}`);
 	const done = [];
-	for (const id of shuffle(has).slice(range[0], range[1])) {
+	for (const id of shuffle(has.slice(range[0], range[1]))) {
 		console.log(`fetching ${id}`);
 		const [cached, successfull] = await fetchAndSaveChar(id);
 		if (!cached) await sleep(1500);
