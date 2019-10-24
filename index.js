@@ -1,4 +1,4 @@
-// "im tsu and soy is not good fr"
+// "im tsu and im a cool nikka. Not a b*tch nikka."
 const fetch = require('node-fetch');
 const { MongoClient } = require('mongodb');
 const fs = require('fs');
