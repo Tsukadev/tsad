@@ -1,3 +1,4 @@
+// "im tsu and soy is not good fr"
 const fetch = require('node-fetch');
 const { MongoClient } = require('mongodb');
 const fs = require('fs');
